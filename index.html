@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+<style>
+</style>
+<script src=""></script>
+<body>
+
+<div class = "container">
+<header>
+<div class="logo">
+<h1><img src="logo.png" width="100px" height="60px"></h1>
+</div>
+<div class="nav" id="mynav">
+<ul>
+<li><a href="#">HOMEPAGE</a></li>
+<div class="dropdown">
+<li><a href="#">ABOUT US</a></li>
+<div class="dropdown-content">
+	  <a href="#">Out Team</a>
+      <a href="#">Leadership</a>
+      <a href="#">Partners</a>
+</div>
+</div>
+<li><a href="#">PRODUCTS</a></li>
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+<li><a class="contact" href="#"><button class="button">Contact Us</button></a></li>
+<ul>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mynav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+
+</header>
+
+<div class="text">
+<h5>NEW ARRIVAL</h5>
+<h1><b>Expectations put <br> limitations on <br> possibilities.<b></h1>
+<div class="indent">
+<p> The Audi Q8 offers a unique performance that blends sport and utility into a momentous SUV design.</p>
+</div>
+</div>
+
+</div>
+<div class="container1">
+<div class="black">
+
+<div class="aboutq8photo">
+<img src="aboutus.png" width="500" height="250">
+</div>
+</div>
+<div class="aboutq8">
+<h3>ABOUT Q8</h3>
+<h1>Welcome to the 8th<br> dimension. The new<br> Audi Q8</h1>
+<p class="p1">When its imposing Singlwframe in octagonal<br> design, the Audi Q8 presents the new face of<br> the Q family. </p>
+<p class="p2">The radiator grille combines with the forward-mounter<br> spoiler and the strongly contured air inlets to underline<br> its confident</p>
+</div>
+
+</div>
+
+<div class="container2">
+<div class="layer" />
+<div class="whole">
+<div class="featured">
+<h3>FEATURED</h3>
+<h1> <b>Brand new The Audi RSQ8<b></h1>
+<p> The RS Q8 gives you the choice: depending on the selected equipment, its <br> looks are even bolder and sportier to suit your personal ambitions</p>
+</div>
+<div class="boxwrapper">
+<div class="box"> 
+<h2>POWER OUTPUT</h2>
+<h1><b>441 kw</b></h1>
+<p>(600hp)</p>
+
+</div>
+<div class="box">
+<h2>ACCELERATION</h2>
+<h1><b>3.8</b></h1>
+<p>seconds</p>
+</div>
+<div class="box">
+<h2>TORQUE</h2>
+<h1><b>800</b></h1>
+<p>Nm</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container3">
+<div class="you"><h1>You might take a look...</h1></div>
+<div class="nav1" id="mynav1">
+<ul>
+<li><a href="#" style="border-bottom:1px solid red; color: black;">All</a></li>
+<li><a href="#">Hatchback</a></li>
+<li><a href="#">Sportback</a></li>
+<li><a href="#">Limousine</a></li>
+<li><a href="#">SUV</a></li>
+<li><a href="#">Cabrio</a></li>
+<ul>
+</div>
+<div class="cars">
+
+<span class="carbox">
+<img src="product3.png">
+<p class="carp">5 Seats, 4 Doors</p>
+<h1 class="carh1"><b>Audi Q3 2020</b></h1>
+<p class="conf"> Configurstor </p>
+        <nav class="carnav">
+            <ul>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px;"/><a class="a">Includes 300 free km</a></li>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px;"/><a class="a">Theft Protection</a></li>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px;"/><a class="a">Non Refundable</a></li>
+               
+            </ul>
+        </nav>
+<div class="carfooter">
+<div class="starting">
+
+<p>Starting from</p>
+<h1><b>29.999 $</b></h1>
+</div>
+<div class="btnn">
+<button class ="btn" id="myBtn">Buy Now</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="mimg">
+	<img src="product3.png">
+    <p class="carp">5 Seats, 4 Doors</p>
+	<h1 class="carh1"><b>Audi Q3 2020</b></h1>
+	<div id="startingfrom">
+	<p>Starting from</p>
+	<h1><b>29.999 $</b></h1>
+	</div>
+	</div>
+	<div id="check">
+	<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+   <label for="vehicle1"> 48-V electrical system</label><br>
+   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+   <label for="vehicle2"> Adaptive air suspension - sport</label><br>
+   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+   <label for="vehicle3"> Acoustic side windows - optional</label><br><br>
+   <input type="checkbox" id="vehicle3" name="vehicle4" value="Boat">
+   <label for="vehicle3"> Acoustic and heat-insulating glass</label><br><br>
+   <input type="checkbox" id="vehicle3" name="vehicle5" value="Boat">
+   <label for="vehicle3"> Ambiental LED</label><br><br>
+	</div>
+  </div>
+
+</div>
+</div>
+</div>
+</span>
+
+
+
+<span class="carbox">
+<img src="product2.png">
+<p class="carp">5 Seats, 4 Doors</p>
+<h1 class="carh1"><b>Audi A4 2020</b></h1>
+<p class="conf"> Configurstor </p>
+        <nav class="carnav">
+            <ul>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px; margin: 2px; float:left;"/><a class="a">Includes 300 free km</a></li>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px; margin: 2px; float:left;"/><a class="a">Theft Protection</a></li>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px; margin: 2px; float:left;"/><a class="a">Non Refundable</a></li>
+               
+            </ul>
+        </nav>
+<div class="carfooter">
+<div class="starting">
+
+<p>Starting from</p>
+<h1><b>24.999 $</b></h1>
+</div>
+<div class="btnn">
+<button class ="btn" id="myBtn">Buy Now</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+</div>
+</div>
+</span>
+
+
+<span class="carbox">
+<img src="product1.png">
+<p class="carp">5 Seats, 4 Doors</p>
+<h1 class="carh1"><b>Audi A3 2020<b></h1>
+<p class="conf"> Configurstor </p>
+        <nav class="carnav">
+            <ul>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px; margin: 2px; float:left;"/><a class="a">Includes 300 free km</a></li>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px; margin: 2px; float:left;"/><a class="a">Theft Protection</a></li>
+                <li><img class="icon" src="icon.png" style="width:10px; height:10px; margin: 2px; float:left;"/><a class="a">Non Refundable</a></li>
+               
+            </ul>
+        </nav>
+<div class="carfooter">
+<div class="starting">
+
+<p>Starting from</p>
+<h1><b>19.999 $</b></h1>
+</div>
+<div class="btnn">
+<button class ="btn" id="myBtn">Buy Now</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+</div>
+</div>
+</span>
+
+
+
+
+<span class="carbox">
+<img src="product4.png">
+<p class="carp">5 Seats, 4 Doors</p>
+<h1 class="carh1"><b>Audi Q7 2020</b></h1>
+<p class="conf"> Configurstor </p>
+        <nav class="carnav">
+            <ul>
+                <li><img class="icon" src="icon.png" /><a class="a">Includes 300 free km</a></li>
+                <li><img class="icon" src="icon.png" /><a class="a">Theft Protection</a></li>
+                <li><img class="icon" src="icon.png" /><a class="a">Non Refundable</a></li>
+               
+            </ul>
+        </nav>
+<div class="carfooter">
+<div class="starting">
+<p>Starting from</p>
+<h1><b>39.999 $</b></h1>
+</div>
+<div class="btnn">
+<button class ="btn" id="myBtn">Buy Now</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+</div>
+</div>
+</span>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</div>
+</div>
+<div class="container4">
+<div class="layer1" />"
+<div id="together">
+<div class="stext">
+<h3>CONTACT US</h3>
+<h1><b>If you have any<br>questions, don't<br> hesitate to contact us.<b></h1>
+</div>
+<div  class="greencar">
+<img src="greencar.png" class="carimgg" width="1000px" height="500px">
+<div class="form">
+
+
+</div>
+</div>
+</div>
+
+<div class="footer">
+<div class="copy">
+<p> &copy 2020 FSD. ALL RIGHTS RESERVED </p>
+</div>
+<div class="fnav1" id="fmynav1">
+<ul>
+<li><a>TERMS OF AGRIMENTS</a></li>
+<li><a>PRIVACY POLICI</a></li>
+<ul>
+</div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
